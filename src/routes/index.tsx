@@ -452,8 +452,8 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
         <p>© 2026 Subhan Shafique. All Rights Reserved.</p>
         <div className="flex items-center gap-3">
-          <SocialBtn href="https://github.com/" label="GitHub"><Github className="h-5 w-5" /></SocialBtn>
-          <SocialBtn href="https://instagram.com/" label="Instagram"><Instagram className="h-5 w-5" /></SocialBtn>
+          <SocialBtn href="https://github.com/subhanshafique839-cloud" label="GitHub"><Github className="h-5 w-5" /></SocialBtn>
+          <SocialBtn href="https://www.instagram.com/_subhan_shafique?igsh=MWVuM2djbXBwY2Vpcw%3D%3D&utm_source=qr" label="Instagram"><Instagram className="h-5 w-5" /></SocialBtn>
         </div>
       </div>
     </footer>
