@@ -449,9 +449,12 @@ function SocialBtn({ href, label, children }: { href: string; label: string; chi
 function Footer() {
   return (
     <footer className="border-t border-white/5 px-6 py-8">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 text-sm text-muted-foreground sm:flex-row">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
         <p>© 2026 Subhan Shafique. All Rights Reserved.</p>
-        <p>Built with <span className="text-accent">React</span> & passion.</p>
+        <div className="flex items-center gap-3">
+          <SocialBtn href="https://github.com/" label="GitHub"><Github className="h-5 w-5" /></SocialBtn>
+          <SocialBtn href="https://instagram.com/" label="Instagram"><Instagram className="h-5 w-5" /></SocialBtn>
+        </div>
       </div>
     </footer>
   );
