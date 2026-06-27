@@ -56,15 +56,15 @@
   --input: oklch(1 0 0 / 12%);
   --ring: oklch(1 0 0);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.7 0.18 250), oklch(0.75 0.2 280));
+  --gradient-hero: linear-gradient(135deg, oklch(1 0 0), oklch(0.85 0 0));
   --gradient-card: linear-gradient(145deg, oklch(1 0 0 / 6%), oklch(1 0 0 / 2%));
-  --shadow-glow: 0 0 60px oklch(0.7 0.18 250 / 30%);
-  --shadow-card: 0 8px 32px oklch(0 0 0 / 40%);
+  --shadow-glow: 0 0 60px oklch(1 0 0 / 20%);
+  --shadow-card: 0 8px 32px oklch(0 0 0 / 60%);
 }
 
 .dark {
-  --background: oklch(0.08 0.005 250);
-  --foreground: oklch(0.98 0 0);
+  --background: oklch(0 0 0);
+  --foreground: oklch(1 0 0);
 }
 
 @layer base {
