@@ -75,12 +75,9 @@
     scroll-behavior: smooth;
   }
   body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+    background-color: #000;
+    color: #fff;
     font-family: var(--font-body);
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% -20%, oklch(0.7 0.18 250 / 15%), transparent),
-      radial-gradient(ellipse 60% 40% at 80% 50%, oklch(0.75 0.2 280 / 8%), transparent);
     background-attachment: fixed;
   }
   h1, h2, h3, h4 {
