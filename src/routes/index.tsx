@@ -393,8 +393,8 @@ function Contact() {
             <div className="glass rounded-2xl p-5">
               <p className="text-xs uppercase tracking-widest text-muted-foreground">Follow me</p>
               <div className="mt-3 flex gap-3">
-                <SocialBtn href="https://github.com/" label="GitHub"><Github className="h-5 w-5" /></SocialBtn>
-                <SocialBtn href="https://instagram.com/" label="Instagram"><Instagram className="h-5 w-5" /></SocialBtn>
+                <SocialBtn href="https://github.com/subhanshafique839-cloud" label="GitHub"><Github className="h-5 w-5" /></SocialBtn>
+                <SocialBtn href="https://www.instagram.com/_subhan_shafique?igsh=MWVuM2djbXBwY2Vpcw%3D%3D&utm_source=qr" label="Instagram"><Instagram className="h-5 w-5" /></SocialBtn>
               </div>
             </div>
           </div>
