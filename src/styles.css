@@ -35,36 +35,36 @@
 
 :root {
   --radius: 0.75rem;
-  --background: oklch(0.08 0.005 250);
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.12 0.008 250);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.12 0.008 250);
-  --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.98 0 0);
-  --primary-foreground: oklch(0.08 0.005 250);
-  --secondary: oklch(0.18 0.01 250);
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.16 0.01 250);
-  --muted-foreground: oklch(0.65 0.01 250);
-  --accent: oklch(0.7 0.18 250);
-  --accent-foreground: oklch(0.08 0.005 250);
-  --accent-glow: oklch(0.75 0.2 280);
+  --background: oklch(0 0 0);
+  --foreground: oklch(1 0 0);
+  --card: oklch(0 0 0);
+  --card-foreground: oklch(1 0 0);
+  --popover: oklch(0 0 0);
+  --popover-foreground: oklch(1 0 0);
+  --primary: oklch(1 0 0);
+  --primary-foreground: oklch(0 0 0);
+  --secondary: oklch(0.15 0 0);
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.12 0 0);
+  --muted-foreground: oklch(1 0 0);
+  --accent: oklch(1 0 0);
+  --accent-foreground: oklch(0 0 0);
+  --accent-glow: oklch(1 0 0);
   --destructive: oklch(0.6 0.24 27);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(1 0 0 / 10%);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(1 0 0 / 15%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.7 0.18 250);
+  --ring: oklch(1 0 0);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.7 0.18 250), oklch(0.75 0.2 280));
+  --gradient-hero: linear-gradient(135deg, oklch(1 0 0), oklch(0.85 0 0));
   --gradient-card: linear-gradient(145deg, oklch(1 0 0 / 6%), oklch(1 0 0 / 2%));
-  --shadow-glow: 0 0 60px oklch(0.7 0.18 250 / 30%);
-  --shadow-card: 0 8px 32px oklch(0 0 0 / 40%);
+  --shadow-glow: 0 0 60px oklch(1 0 0 / 20%);
+  --shadow-card: 0 8px 32px oklch(0 0 0 / 60%);
 }
 
 .dark {
-  --background: oklch(0.08 0.005 250);
-  --foreground: oklch(0.98 0 0);
+  --background: oklch(0 0 0);
+  --foreground: oklch(1 0 0);
 }
 
 @layer base {
@@ -75,12 +75,9 @@
     scroll-behavior: smooth;
   }
   body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+    background-color: #000;
+    color: #fff;
     font-family: var(--font-body);
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% -20%, oklch(0.7 0.18 250 / 15%), transparent),
-      radial-gradient(ellipse 60% 40% at 80% 50%, oklch(0.75 0.2 280 / 8%), transparent);
     background-attachment: fixed;
   }
   h1, h2, h3, h4 {
