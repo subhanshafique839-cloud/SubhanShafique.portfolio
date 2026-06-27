@@ -116,7 +116,7 @@ function Navbar({ active, onNav, menuOpen, setMenuOpen }: {
       <nav className={`mx-auto flex max-w-6xl items-center justify-between px-6 transition-all duration-300 ${scrolled ? "glass rounded-2xl mx-4 md:mx-auto" : ""}`}>
         <button onClick={() => onNav("home")} className="flex items-center gap-2 font-display text-lg font-bold">
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-accent/15 text-accent">S</span>
-          <span>Subhan<span className="text-accent">.</span></span>
+          <span>Subhan Portfolio<span className="text-accent">.</span></span>
         </button>
 
         <ul className="hidden items-center gap-1 md:flex">
@@ -277,14 +277,14 @@ function About() {
 }
 
 const SKILLS = [
-  { name: "HTML", level: 95 },
-  { name: "CSS", level: 90 },
-  { name: "JavaScript", level: 85 },
-  { name: "React.js", level: 85 },
-  { name: "SQL / Database", level: 80 },
-  { name: "OOP", level: 85 },
-  { name: "Python", level: 80 },
-  { name: "Machine Learning", level: 70 },
+  { name: "HTML", level: 75 },
+  { name: "CSS", level: 75 },
+  { name: "JavaScript", level: 45 },
+  { name: "React.js", level: 70 },
+  { name: "SQL / Database", level: 70 },
+  { name: "OOP", level: 65 },
+  { name: "Python", level: 60 },
+  { name: "Machine Learning", level: 50 },
 ];
 
 function Skills() {
